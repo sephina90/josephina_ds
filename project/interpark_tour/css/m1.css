@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* 
+@media all and (max-width:1065px) and (min-width:769px) { 태블릿 }
+@media all and (max-width:768px) {모바일}
+@media all and (max-width:375px) {아이폰5}
+*/
+
+ 
+@media all and (max-width:1025px) and (min-width:769px) {
+    /* #wrapper{
+        position: relative;
+        width: 100%;
+    }
+    #header{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        background-color: yellowgreen;
+    } */
+
+}
+
+@media all and (max-width:768px) {
+    /* #header{
+        background-color: yellow;
+    } 
+    .headerLayout{
+       border-bottom: none;
+    }
+    
+    .hiddenBg::before{
+        display: none;
+    }
+    
+    .hiddenBar::after{
+        display: none;
+    }
+    
+    .web{display: none;}
+
+    .logo .m-logo{
+        display: block;
+    }
+    .headerWrap .m-menu{
+        display: block;
+    }
+    .w-gnb{
+        display: none;
+    }
+    .m-gnb{
+        display: block;
+    } */
+
+ 
+}
+
+

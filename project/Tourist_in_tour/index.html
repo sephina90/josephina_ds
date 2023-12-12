@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+  <title>연습:투어리스트인투어</title>
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/common.css">
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <!-- <script src="js/rollmain.js"></script> -->
+  <script src="js/jquery.easing.js"></script>	
+  <script src="js/common.js"></script>  
+  <script src="js/jquery.smooth-scroll.min.js"></script> 
+</head>
+<body>
+  
+  <div class="skipnavi">
+    <a href="#container">본문내용 바로가기</a>
+    <a href="#gnb">주메뉴 바로가기</a>
+  </div>
+  
+  <div id="wrap">
+    <header class="on clear">
+      <div class="inner">
+          <!-- 모바일 메뉴버튼 -->
+          <span class="menu-btn">
+            <a href="javascript:void(0)">
+              <p class="hdd">메뉴열기</p>
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </span>
+          <!-- 로고 -->
+          <h1 class="logo">
+            <a href="./index.html">
+              <img src="./img/logo.png" alt="Tourist in tour">
+            </a>
+          </h1>
+          <!-- 네비 -->
+          <nav class="gnb-pc gnb-mobile">
+            <!-- sub-menu -->
+            <ul class="sub-menu">
+              <li><a href="javascript:void(0)">로그인</a></li>
+              <li><a href="javascript:void(0)">회원가입</a></li>
+            </ul>
+            <!-- main-menu -->
+            <ul class="main-menu">
+              <li class="menu__list br_solid">
+                <a href="javascript:void(0)">여행정보</a>
+                <div class="menu__open">
+                  <ul class="submenu__list inner">
+                    <li><a href="javascript:void(0)">국내</a></li>
+                    <li><a href="javascript:void(0)">해외</a></li>
+                  </ul>
+                </div>
+              </li>
+    
+              <li class="menu__list">
+                <a href="javascript:void(0)">고객센터</a>
+                <div class="menu__open">
+                  <ul class="submenu__list inner">
+                    <li><a href="javascript:void(0)">공지사항</a></li>
+                    <li><a href="javascript:void(0)">문의하기</a></li>
+                  </ul>
+                </div>
+              </li>
+    
+              <li class="menu__list br_solid">
+                <a href="javascript:void(0)">상품투어</a>
+                <div class="menu__open">
+                  <ul class="submenu__list inner">
+                    <li><a href="javascript:void(0)">프로그램 소개</a></li>
+                    <li><a href="javascript:void(0)">여행자료</a></li>
+                  </ul>
+                </div>
+              </li>
+    
+              <li class="menu__list">
+                <a href="javascript:void(0)">티켓/가이드</a>
+                <div class="menu__open">
+                  <ul class="submenu__list inner">
+                    <li><a href="javascript:void(0)">항공</a></li>
+                    <li><a href="javascript:void(0)">호텔</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <!-- 모바일 메뉴 닫기버튼 -->
+          <p class="closePop">
+            <a href="javascript:void(0)">닫기</a>
+          </p>
+
+      </div>
+    </header>
+
+    <div id="container">
+      <section class="rolling-section">
+        <article class="rolling-pc">
+          
+          <div class="rolling__Area">
+            <ul class="viewimg__list">
+              <li class="viewimg__img0">
+               <div class="roll_content">
+                <a href="javascript:void(0)">
+                  <img src="img/img_slidecontents01.png" alt="">
+                </a>
+                <p class="roll_txtline">BE TOURIST FOR BETTER LIFE</p>
+               </div>
+              </li>
+              <li class="viewimg__img1">
+                <div class="roll_content">
+                 <a href="javascript:void(0)">
+                   <img src="img/img_slidecontents02.png" alt="">
+                 </a>
+                 <p class="roll_txtline">BE TOURIST FOR BETTER LIFE</p>
+                </div>
+               </li>
+               <li class="viewimg__img2">
+                <div class="roll_content">
+                 <a href="javascript:void(0)">
+                  <img src="img/img_slidecontents03.png" alt="">
+                 </a>
+                 <p class="roll_txtline">BE TOURIST FOR BETTER LIFE</p>
+                </div>
+               </li>
+            </ul>
+
+            <ul class="viewbtn__list">
+              <li class="seq butt0"><a href="javascript:void(0)"><img src="./img/btn_rollbutt_on.png" alt=""></a></li>
+              <li class="seq butt1"><a href="javascript:void(0)"><img src="./img/btn_rollbutt_off.png" alt=""></a></li>
+              <li class="seq butt2"><a href="javascript:void(0)"><img src="./img/btn_rollbutt_off.png" alt=""></a></li>
+              <li class="rollstop"><a href="javascript:void(0)"><img src="./img/btn_roll_stop.png" alt=""></a></li>
+              <li class="rollplay"><a href="javascript:void(0)"><img src="./img/btn_roll_play.png" alt=""></a></li>
+            </ul>
+
+          </div>
+
+        </article>
+
+        <article class="rolling-mobile">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <a href="javascript:void(0)"><img src="./img/mainslide_mob01.jpg" alt=""></a>
+            </div>
+            <div class="swiper-wrapper">
+              <a href="javascript:void(0)"><img src="./img/mainslide_mob02.jpg" alt=""></a>
+            </div>
+            <div class="swiper-wrapper">
+              <a href="javascript:void(0)"><img src="./img/mainslide_mob03.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </article>
+
+      </section>
+
+      <section class="about-section">
+        <h2>다시 찾는 인기 여행기<strong> TOP 3</strong></h2>
+        <article class="about-box">
+          <ul class="place__list inner">
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./img/img_topplace01.jpg" alt="">
+                <h3>성패트릭 대성당</h3>
+                <p class="txt">바쁜 뉴욕 안에서 정교하면서도 웅장한 기운에 침묵하게 되는 기도의 시간!</p>
+							  <span class="view">VIEW</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./img/img_topplace02.jpg" alt="">
+                <h3>원주 뮤지엄 '산'</h3>
+                <p class="txt">전시된 유산들을 담아낸 건물에 신비로운 돌과 물의 테마가 담겨 있다.</p>
+							  <span class="view">VIEW</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./img/img_topplace03.jpg" alt="">
+                <h3>일본 만국박람회 기념공원</h3>
+                <p class="txt">오사카 센리 반파쿠에는 드넓은 대지에 정원과 들, 물과 함께 하는 문화가 있다.</p>
+							  <span class="view">VIEW</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="appbbs-section">
+        <article class="appbbs-box inner">
+          <h2 class="hdd">상담과 최근게시물</h2>
+          <div class="app_line">
+            <a href="javascript:void(0)">카카오톡 1:1 상담</a>
+            <a href="javascript:void(0)">전화 상담 신청</a>
+          </div>
+          <div class="bbs_line">
+            <h3>NOTICE</h3>
+            <ul class="notice_recent">
+              <li><a href="javascript:void(0)">이번 여름 휴가 제주 갈까? 미션 투어 (여행경비 50만원 지원)</a></li>
+              <li><a href="javascript:void(0)">박물관 미션 투어 응모 당첨자 발표</a></li>
+              <li><a href="javascript:void(0)">추석 연휴 티켓/투어 배송 및 직접 수령 안내</a></li>
+              <li><a href="javascript:void(0)">하롱베이 서비스 OPEN! (여행정보, 가이드북, 가이드맵)</a></li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </div>
+    
+    <footer>
+      <section class="footer-section inner">
+        <ul class="foot_list">
+          <li><a href="javascript:void(0)">이용약관</a></li>
+          <li><a href="javascript:void(0)">개인정보취급방침</a></li>
+        </ul>
+        <div>
+          <h2>투어리스트인투어</h2>
+          <p class="addr">서울특별시 종로구 혜화동 9길 청운빌딩 5층
+          <b>/</b>
+          <span class="dp_block">대표전화 02-1234-5678</span>
+          <b>/</b> 
+          <span class="dp_block">E-mail : titour@touristintour.com</span>
+          </p>
+          <p class="copy">Copyright(c) TouristInTour all right reserved</p>
+        </div>
+        <ul class="snslink">
+          <li><a href="javascript:void(0)">blog</a></li>
+          <li><a href="javascript:void(0)">facebook</a></li>
+          <li><a href="javascript:void(0)">instagram</a></li>
+        </ul>
+      </section>
+    </footer>
+  </div>
+
+  <h2 class="hdd">빠른 링크 : 전화 문의,카카오톡,오시는 길,꼭대기로</h2>
+  <section class="quick-section">
+    <ul class="quick__list">
+      <li><a href="tel:010-7184-4403"><em>전화 문의</em><span>010-1234-5678</span></a></li>
+      <li><a href="javascript:void(0)"><em>카카오톡 상담</em><span>1:1상담</span></a></li>
+      <li><a href="javascript:void(0)"><em>오시는 길</em></a></li>
+    </ul>
+    <p class="to_top"><a href="#layout0" class="s_point">TOP</a></p>
+  </section>
+
+
+</body>
+</html>
