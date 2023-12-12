@@ -1,0 +1,88 @@
+@charset "utf-8";
+body, 
+/* 블록요소 */
+header, section, footer, nav, article, aside,
+h1, h2, h3, h4, h5, h6,
+p, address,
+ol, ul, li, dl, dt, dd,
+table, tr, td, thead, tbody, tfoot, col, colgroup, caption,
+form, fieldset,
+div,
+/* 인라인요소 */
+a,
+img, 
+i, strong, em, textarea,
+input, label,
+select,option,
+span,
+/* ----- */
+audio, video, iframe, button{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+/* web : 16px */
+html{
+    font-size: 16px;
+}
+
+@media all and (max-width:1024px) and (min-width:800px){
+    html{font-size: 14px;}
+}
+
+@media all and (max-width:799px) and (min-width:375px){
+    html{font-size: 14px;}
+}
+
+@media all and (max-width:375px){
+    html{font-size: 12px;}
+}
+
+/* 
+@media all and (max-width:1065px) and (min-width:801px) { 태블릿 }
+@media all and (max-width:800px) {모바일}
+@media all and (max-width:320px) {아이폰5}
+*/
+
+
+
+header, section, article, aside, nav, footer{display: block;}
+
+ol,ul{list-style: none;}
+
+i,em, strong{
+    font-style: normal;
+    font-weight: normal;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #222222;
+}
+a:hover,
+a:active,
+a:focus{
+    text-decoration: underline;
+    color: #222222;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+img, button, iframe{border: none;}
+
+input, img, button{vertical-align: middle;}
+
+body, input, button{
+    font-size: 12px;
+    color: #222222;
+    font-weight: 400;
+    /* font-family: 'NanumSquare','나눔스퀘어','Noto Sans KR','본고딕', sans-serif; */
+}
+
+
+

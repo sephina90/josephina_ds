@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+@media all and (max-width:1024px) and (min-width:800px){
+    #container{
+   
+    }
+    /* 1: 배너존 */
+    #container > .visual{
+    
+    }
+    #container > .visual > a{
+        height: 500px;
+    }
+  
+    .visual > .m-banner0{
+        background: url(../images/m-banner_0.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .visual > .m-banner1{
+        background: url(../images/m-banner_1.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .visual > .m-banner2{
+        background: url(../images/m-banner_2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .visual > .m-banner3{
+        background: url(../images/m-banner_3.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .visual > .m-banner4{
+        background: url(../images/m-banner_4.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+}
+
+@media all and (max-width:799px) and (min-width:375px){}
+
+@media all and (max-width:375px){}
+
+

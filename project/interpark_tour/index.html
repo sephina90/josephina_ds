@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <meta name="keywords" content="여행, 관광, 패키지여행, 투어, 항공, 해외여행, 국내여행" />
+  <meta name="description" content="인터파크투어 홈페이지 메인" />
+  <meta name="author" content="soms"/>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="인터파크투어">
+  <meta property="og:url" content="https://www.">
+  <meta property="og:description" content="인터파크투어메인페이지">
+  <meta property="og:image" content="img/logo.png">     <!-- content : 미리보기할 이미지 경로 넣기 -->
+  <!-- twitter -->
+  <meta property="twitter:card" content="website">
+  <meta property="twitter:title" content="인터파크투어">
+  <meta property="twitter:url" content="https://www.">
+  <meta property="twitter:description" content="인터파크투어메인페이지">
+  <meta property="twitter:image" content="img/logo.png"> <!-- content : 미리보기할 이미지 경로 넣기 -->
+
+  <!-- 파비콘 -->
+  <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
+  <link rel="apple-touch-icon" href="./images/favicon.svg">
+  <link rel="icon" type="image/png" href="./images/favicon_backup.png">
+  
+  
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/font.css">
+  <!-- 모바일 css(임시) -->
+  <link rel="stylesheet" href="./css/m1.css">
+  <link rel="stylesheet" href="./css/m2.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="./js/main.js"></script>
+  <title>다시해보자아아아아아으아아아아아할수있다으아하아아</title>
+
+</head>
+<body>
+    <!-- skip-menu -->
+  <div id="skipMenu"> 
+    <a href="#container">본문내용바로가기</a>
+    <a href="#gnb">주메뉴바로가기</a>
+  </div>
+
+  <div id="wrapper">
+    <header class="headerWrap" id="header">  <!-- 100 -->
+      <div class="introWrap inner clearfix">
+       
+        <h1 class="logo">
+          <a href="/index.html" class="logoWeb"><img src="./images/w_logo.png" alt="인터파크투어"></a>
+          <a href="/index.html" class="logoMob"><img src="./images/m_logo.svg" alt="인터파크투어"></a>
+        </h1>
+
+        <div class="searchArea">
+          <h2 class="hideTxt--">검색영역</h2>
+          <form action="#" method="post" class="searchForm" id="searchForm">
+            <input type="text" class="searchInput" id="searchInput" placeholder="검색어를 입력하세요">
+            <button type="submit" class="searchBtn" aria-label="검색"></button>
+          </form>  
+        </div>
+        
+        <aside class="subMenu">
+          <ul class="subMenu__list">
+            <li><a href="#none">로그인</a></li>
+            <li><a href="#none">회원가입</a></li>
+            <li><a href="#none">마이페이지</a></li>
+          </ul>
+
+          <div class="mobileBtn">
+            <button type="submit" class="searchBtn" aria-label="검색"></button>
+            <a href="#none" class="gnbBtn" aria-level="모바일메뉴"></a>
+          </div>
+
+        </aside>
+        
+      
+
+      </div>
+
+      <nav class="navWrap inner" id="gnb">
+
+        <h2 class="hideTxt--">주메뉴</h2>
+        <div class="gnbWeb">
+          <ul class="gnbWeb__list">
+            <li><a href="#none" class="black_">항공</a></li>
+            <li><a href="#none" class="black_">국내숙소</a></li>
+            <li><a href="#none" class="black_">해외숙소</a></li>
+            <li><a href="#none" class="black_">투어・티켓</a></li>
+            <li><a href="#none" class="black_">해외여행패키지</a></li>
+            <li><a href="#none" class="black_">국내/제주도</a></li>
+            <li><a href="#none" class="black_">허니문</a></li>
+            <li><a href="#none" class="black_">골프</a></li>
+            <li><a href="#none" class="blue_">여행혜택존</a></li>
+            <li><a href="#none" class="blue_">NOL항공즉시할인</a></li>
+            <li><a href="#none" class="blue_">쎈항공딜</a></li>
+          </ul>
+        </div>
+
+        <!-- 모바일 gnb -->
+        <div class="gnbMob">
+          <ul class="gnbMob__list">
+            <li><a href="#none"><span class="gnbIcon icon1"></span><span class="txt">항공</span></a></li>
+            <li><a href="#none"><span class="gnbIcon icon2"></span><span class="txt">국내숙소</span></a></li>
+            <li><a href="#none"><span class="gnbIcon icon3"></span><span class="txt">해외숙소</span></a></li>
+            <li><a href="#none"><span class="gnbIcon icon4"></span><span class="txt">패키지여행</span></a></li>
+            <li><a href="#none"><span class="gnbIcon icon5"></span><span class="txt">투어・티켓</span></a></li>
+            <li><a href="#none"><span class="gnbIcon icon6"></span><span class="txt">TOP여행지</span></a></li>
+            <li><a href="#none"><span class="gnbIcon icon7"></span><span class="txt">데이터혜택</span></a></li>
+            <li><a href="#none"><span class="gnbIcon icon8"></span><span class="txt">제주도</span></a></li>
+            <li><a href="#none"><span class="gnbIcon icon9"></span><span class="txt">얼리버드</span></a></li>
+            <li><a href="#none"><span class="gnbIcon icon10"></span><span class="txt">항공특가</span></a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
+
+    <section class="containerLayout" id="container">   <!-- 100 -->
+        
+      <section class="w-contents01 m-contents01">  <!-- 100 -->
+        <a href="#none" class="banner0 m-banner0"><span class="hideTxt--">상상 그 이상의 땅 아이슬란드 간헐천과 차가운 빙하지대 광활한 대자연을 만끽 할 수 있는곳</span></a>
+        <a href="#none" class="banner1 m-banner1"><span class="hideTxt--">뭉치면 뭉칠수록 예산 SAVE! #인원이 모이면 #더 큰 할인혜택 #최대 80만원 할인</span></a>
+        <a href="#none" class="banner2 m-banner2"><span class="hideTxt--">두 가지 매력으로 즐기는 큐슈 맛과 멋이 살이있는 북큐슈 천혜의 자연을 품은 남큐슈</span></a>
+        <a href="#none" class="banner3 m-banner3"><span class="hideTxt--">아직 떠나지 못했다면 늦캉스 어때요? #8월 출발 임박 특가 #9월 추석 황금연휴 출발 확정</span></a>
+        <a href="#none" class="banner4 m-banner4"><span class="hideTxt--">우리집 앞 세븐일레븐 여행도 세일한다 올 겨울, 여행 꿀팁소에 따뜻한 혜택이 온다</span></a>
+        
+        <div class="visualGroup">  <!-- center -->    
+          <div class="visualControl">
+            <a href="#none" class="prev hideTxt--">배너이전보기</a>
+            <a href="#none" class="next hideTxt--">배너다음보기</a>
+          </div>
+
+          <div class="visualBtn">
+            <a href="#none"><span class="on"></span></a>
+            <a href="#none"><span></span></a>
+            <a href="#none"><span></span></a>
+            <a href="#none"><span></span></a>
+          </div>
+        </div>
+      </section>
+      
+      <section class="w-contents02 m-contents02"> <!--가운데정렬 -->
+          <h3>오늘 놓치면 안될 #타임딜</h3>
+          <ul class="timeDealWrap clearfix">
+              <li>
+                  <div class="timeDeal">
+                      <span class="icon">추석연휴</span>
+                      <a href="#none"><img src="./images/contents02_0.png" alt=""></a>
+                      <div class="text">
+                          <p>
+                              <span class="highlight">MD's Comment</span>
+                              <br>
+                              #추석연휴 해외여행 #고민하면 마감
+                          </p>
+                          <p class="time">06일 06:28:45</p>
+                      </div>
+                  </div>
+                  <p>[연휴N필리핀] 세부 | 보라카이 | 보홀</p>
+              </li>
+
+              <li>
+                  <div class="timeDeal">
+                      <span class="icon">추석연휴</span>
+                      <a href="#none"><img src="./images/contents02_1.png" alt=""></a>
+                      <div class="text">
+                          <p>
+                              <span class="highlight">MD's Comment</span>
+                              <br>
+                              #추석연휴 #좌석확보!
+                          </p>
+                          <p class="time">07일 06:28:45</p>
+                      </div>
+                  </div>
+                  <p>[추석N베트남] 다낭 | 나트랑 | 푸꾸옥</p>
+              </li>
+
+              <li>
+                  <div class="timeDeal">
+                      <span class="icon">추석연휴</span>
+                      <a href="#none"><img src="./images/contents02_2.png" alt=""></a>
+                      <div class="text">
+                          <p>
+                              <span class="highlight">MD's Comment</span>
+                              <br>
+                              #추석연휴 해외여행 #좌석확보!
+                          </p>
+                          <p class="time">06일 06:28:45</p>
+                      </div>
+                  </div>
+                  <p>[연휴N물놀이] 괌 | 사이판 전세기 특별전</p>
+              </li>
+
+          </ul>
+          
+      </section>
+      <section class="w-contents03 m-contents03">
+          <div>
+              <a href="#none"><img src="./images/w_contents03.jpg" alt="NH농협카드로 결제 시 국내여행 구간별 최대 15%할인 고향사랑페스티벌"></a>
+          </div>
+      </section>
+
+      <article class="m-contents04 mobile">
+          <h3>인기 급상승 여행지</h3>
+          <ul>
+              <li><a href="#none"><span>다낭</span></a></li>
+              <li><a href="#none"><span>오사카</span></a></li>
+              <li><a href="#none"><span>나트랑</span></a></li>
+              <li><a href="#none"><span>대만</span></a></li>
+              <li><a href="#none"><span>세부</span></a></li>
+              <li><a href="#none"><span>스페인</span></a></li>
+              <li><a href="#none"><span>후쿠오카</span></a></li>
+          </ul>
+      </article>
+
+      <section class="w-contents04 m-contents05">
+          <h3>#라방 보고 특가로 체크인</h3>
+          <a href="#none" class="mobile"><span>라이브더보기</span></a>
+          <div>
+              <a href="#none"><img src="./images/Group 31.png" alt="라이브다시보기"></a>
+              <p class="mobile">
+                  풀빌라 매력에 푹!빠진 [푸꾸옥 5일]<br>
+                  8/29일 화요일 오후 8시<br>
+                  <span>#해피아워 1+1 #리조트F&B,SPA 무제한 20%할인 #공항⟷리조트 왕복 픽업 #얼리체크인or레이트체크아웃</span>
+              </p>
+          </div>
+      </section>
+
+      <section class="w-contents05">
+          <div class="originalWrap clearfix">
+
+              <div>
+                  <a href="#none">
+                      <img src="./images/w_contents05_0.png" alt="">
+                      <span>런던에서 살아보기 &nbsp;> </span>
+                  </a>
+              </div>
+              
+              <div class="grid">
+                  <div class="originalIntro">
+                      <p class="par1">
+                          <em>꿈을 담은 특별한 여행</em><br>
+                          <strong>인터파크 #ORIGINAL</strong><br>
+                      </p>
+                      <p class="par2">
+                          <span>영국 런던에 나의 집이 있다면?</span> <br>
+                          EPL 축구 응원을 현장에 가서 하고<br>
+                          웨스트엔드 극장가에서 뮤지컬도 한 편 봐야겠죠?<br>
+                          #런던 반달살기 #영국프리미어리그 축구경기 티켓포함 #뮤지컬 관람
+                      </p>
+                      
+                      <p class="par3">
+                          <span>특별한 키워드를 담은 인터파크 Original</span><br>
+                          <span>#STAY</span>한 곳에 길게 머무며 여행지를 온전히 느끼다.
+                      </p>
+                  </div>
+                  <ul class="originalList">
+                      <li>
+                          <a href="#none">
+                              
+                              <img src="./images/w_contents05_1.png" alt="">
+                              
+                              <p class="text">
+                                  <strong>지중해 해변 품은 올인클루시브 리조트, #골프 #테니스 #수영 즐기기</strong>
+                                  <br>안탈리아 14일 #올인클루시브리조트 #어린이무료투숙<br><strong>4,390,000원~</strong>
+                              </p>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#none">
+                              
+                              <img src="./images/w_contents05_2.png" alt="">
+                              
+                              <p class="text">
+                                  <strong>사막리조트에 머무르며 나만의 버킷리스트를 완성!</strong>
+                                  <br>아부다비 7일 #버킷리스트 #사막호텔<br><strong>4,790,000원~</strong>
+                              </p>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+      <section class="w-contents06">
+          <h3 class="">가을엔 더 풍성하게 #국내여행</h3>
+          <ul class="clearfix">
+              <li>
+                  <a href="#none">
+                      <div class="round">
+                          <img src="./images/w_contents06_0.png" alt="">
+                      </div>
+                      <p>
+                          <strong>가을, 제주도여행</strong><br>30일전 예약시<br>최대 25만원 할인
+                      </p>
+                  </a>
+              </li>
+
+              <li>
+                  <a href="#none">
+                      <div class="round">
+                          <img src="./images/w_contents06_1.png" alt="">
+                      </div>
+                      <p>
+                          <strong>화천/인제 캠핑+미니콘서트</strong><br>모여봐요! 강원으로!<br>강원상품권+주유권+관광지입장권
+                      </p>
+                  </a>
+              </li>
+
+              <li>
+                  <a href="#none">
+                      <div class="round 추천">
+                          <img src="./images/w_contents06_2.png" alt="">
+                      </div>
+                      <p>
+                          <strong>9월의 국내여행</strong><br>가을 나들이<br>패키지, 자유여행, 테마파크 입장권 추천
+                      </p>
+                  </a>
+              </li>
+
+              <li>
+                  <a href="#none">
+                      <div class="round">
+                          <img src="./images/w_contents06_3.png" alt="">
+                      </div>
+                      <p>
+                          <strong>이유 있는 선택, 내나라 여행</strong><br>2007년 시작, 연간 1만명의<br>고객이 선택한 고품격 국내여행
+                      </p>
+                  </a>
+              </li>
+
+              <li>
+                  <a href="#none">
+                      <div class="round">
+                          <img src="./images/w_contents06_4.png" alt="">
+                      </div>
+                      <p>
+                          <strong>강원 고성 DMZ Festa!</strong><br>25,000원! 왕복 버스비용으로,<br>오마이걸, 포레스텔라 등 공연까지
+                      </p>
+                  </a>
+              </li>
+          </ul>
+      </section>
+      
+      <article class="m-contents06 mobile">
+          <ul>
+              <li><a href="#none"><img src="./images/m_contents06_0.png" alt="9월 PICK! 가을 나들이 추천! 이달의 국내여행"></a></li>
+              <li><a href="#none"><img src="./images/m_contents06_1.png" alt="내 맘대로 국내여행 원하는 것만 골라 떠나는 자유여행!"></a></li>
+              <li><a href="#none"><img src="./images/m_contents06_2.png" alt="지방출발 국내여행 우리 지역에서도 출발"></a></li>
+          </ul>
+      </article>
+
+      <article class="m-contents07 mobile">
+          <h3>기간한정 #가을여행</h3>
+          <div>
+              <div>
+                  <span>강원</span>
+                  <img src="./images/m_contents07_0.png" alt="">
+                  <p>
+                      <span>CAMPING</span>
+                      <strong>[캠핑+재즈미니콘서트] 인제 2/3일</strong><br>
+                      <span>#강원상품권 #주유권 #포레스트 또는 밸리사이트</span><br>
+                      <i><em>55,000</em>원~</i>
+                  </p>
+              </div>
+          </div>
+      </article>
+
+      <article class="m-contents08 mobile">
+          <p>나는 황금연휴에<br>비행기 타고 떠난다!</p>
+          <a href="#none">더보기</a>
+          <div>
+              <ul>
+                  <li>
+                      <a href="#none">
+                          <img src="./images/m_contents08_1.png" alt="">
+                          <strong>대만</strong>
+                          <span>#4일/5일</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#none">
+                          <img src="./images/m_contents08_2.png" alt="">
+                          <strong>하노이</strong>
+                          <span>#5일/6일</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#none">
+                          <img src="./images/m_contents08_3.png" alt="">
+                          <strong>홋카이도</strong>
+                          <span>#베스트 일정</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#none">
+                          <img src="./images/m_contents08_4.png" alt="">
+                          <strong>괌</strong>
+                          <span>#에어텔vs패키지</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#none">
+                          <img src="./images/m_contents08_5.png" alt="">
+                          <strong>코타키나발루</strong>
+                          <span>#하얏트리젠시</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#none">
+                          <img src="./images/m_contents08_6.png" alt="">
+                          <strong>사이판</strong>
+                          <span>#에어텔vs패키지</span>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </article>
+      
+      <section class="w-contents07 m-contents09">
+          <div class="cardAd">
+              <a href="#none"><img src="./images/w_contents07.jpg" alt="포인트 10% 기본적립+공항 라운지 기본2회 NOL카드 결제 시 항공권 즉시 할인 지금혜택받기"></a>
+          </div>
+          <div class="mobile">
+              <ul>
+                  <li><a href="#none"><img src="./images/m_contents09_0.avif" alt="NOL 카드로 결제 시 해외 항공권 최대 47% 할인 10% 포인트 적입은 기본"></a></li>
+                  <li><a href="#none"><img src="./images/m_contents09_1.avif" alt="8/28~8/30 단,3일 에어서울 단독특가 8개 전 노선"></a></li>
+                  <li><a href="#none"><img src="./images/m_contents09_2.avif" alt="두명이상 모이면 항공권 50% BIG SALE 에어마카오 타고 여행 떠나요"></a></li>
+                  <li><a href="#none"><img src="./images/m_contents09_3.avif" alt="8월 30일 18:00 LIVE 튀르키예 일주 1,099,000원~ 대한항공직항+특급호텔+11대특식"></a></li>
+              </ul>
+          </div>
+      </section>
+
+      <section class="w-contents08 m-contents10 clearfix">
+          <h3>여행전 알아두면 #유용한 팁</h3>
+          <div class="layout">
+              <div class="tipBox">
+                  <a href="#none">
+                      <span class="icon01"></span>
+                      <p>
+                          <span>PC, 모바일 톡집사</span><br>
+                          PC, 모바일에서<br>톡집사를 만나보세요!
+                      </p>
+                  </a>
+              </div>
+
+              <div class="tipBox">
+                  <a href="#none">
+                      <span class="icon02"></span>
+                      <p>
+                          <span>면세/환전/렌트/쇼핑</span><br>
+                          여행 준비 마무리는<br>여기에서!
+                      </p>
+                  </a>
+              </div>
+
+              <div class="tipBox">
+                  <a href="#none">
+                      <span class="icon03"></span>
+                      <p>
+                          <span>여행자 보험</span><br>
+                          해외 여행 준비의<br>필수 아이템!
+                      </p>
+                  </a>
+              </div>
+
+              <div class="tipBox">
+                  <a href="#none">
+                      <span class="icon04"></span>
+                      <p>
+                          <span>쏠쏠한 카드 혜택</span><br>
+                          다양한 카드 혜택을<br>확인해 보세요!
+                      </p>
+                  </a>
+              </div>
+          </div>
+      </section>
+
+      <section class="w-contents09 m-contents11">
+          <div>
+              <h3>상담안내</h3>
+              <dl>
+                  <dt class="highlight">상담시간 : 평일 오전 9시 ~ 오후 6시 (토,일 및 공휴일 휴무)</dt>
+                  <dd><i>항공, 투어&티켓, 렌터카</i> 취소/변경/환불 업무 : 평일 오후 5시 까지</dd>
+                  <dd><i>호텔</i> 취소/변경/환불 업무 : 평일 오후 4시 까지</dd>
+              </dl>
+              <div>
+                  <div>
+                      <span></span>
+                      <span>패키지여행상담</span>
+                      <em>1544-2288</em>
+                  </div>
+                  <div>
+                      <span></span>
+                      <span>자유여행상담</span>
+                      <em>1644-3399</em>
+                  </div>
+              </div>
+
+          </div>
+          <div>
+              <h3>이용안내</h3>
+              <ul>
+                  <li><a href="#none">고객센터</a></li>
+                  <li><a href="#none">포인트</a></li>
+                  <li><a href="#none">쿠폰안내</a></li>
+                  <li><a href="#none">자주묻는질문</a></li>
+                  <li><a href="#none">예약안내</a></li>
+                  <li><a href="#none">여행정보</a></li>
+              </ul>
+          </div>
+      </section>
+
+      <article class="m-contents12 mobile">
+          <p>
+              <span></span>
+              인터파크투어를 카카오톡 플러스친구로 추가하시면<br>
+              다양한<span>여행정보 및 혜택</span>을 받아 보실 수 있습니다.
+          </p>
+          <p>
+              <a href="#none">추가하기</a>
+          </p>
+      </article>
+
+      <section class="w-contents10 m-contents13">
+          <div class="notice">
+              <h3>공지</h3>
+              <ul>
+                  <li><a href="#none">[재공지] 23년 8월, 롯데카드 결제일할인 이벤트 관련 조기종료 안내</a></li>
+                  <li><a href="#none">[항공권소식] 이스타 항공 시스템 작업 공지 안내(8/30~8/31)</a></li>
+                  <li><a href="#none">[2023년 9월부 국내선/국제선 유류할증료 인상 안내]</a></li>
+              </ul>
+          </div>
+
+          <div class="snsGroup">
+              <ul>
+                  <li><a href="#none">인스타그램</a></li>
+                  <li><a href="#none">페이스북</a></li>
+                  <li><a href="#none">네이버블로그</a></li>
+                  <li><a href="#none">유튜브</a></li>
+                  <li><a href="#none">카카오톡</a></li>
+              </ul>
+          </div>
+
+      </section>
+
+    </section>
+
+    <footer class="footerLayout" id="footer">푸터푸터</footer>
+
+  </div>
+
+  <button id="scrollTop">페이지 맨 위로 이동</button>
+
+
+
+
+    
+
+
+
+</body>
+</html>

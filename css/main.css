@@ -1,0 +1,491 @@
+@charset "utf-8";
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+.wrapper-bg {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+/* HEADER */
+header {
+  width: 100%;
+  height: 100px;
+}
+header nav .menu {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+}
+header nav .menu > li > a {
+  display: block;
+  font-size: 24px;
+  line-height: 4.5;
+  font-weight: 600;
+}
+/* HOME */
+#home {
+  position: relative;
+}
+#home .main_title.inner {
+  /* border: 2px solid tomato; */
+}
+#home .main_title h1 {
+  font-size: 70px;
+  font-weight: 600;
+  position: absolute;
+  top: 22%;
+  left: 10%;
+}
+#home .main_title h2 {
+  font-size: 38px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 25%;
+  left: 55%;
+}
+#home .main_title > img {
+  padding: 150px 0;
+  width: 100%;
+}
+/* PROFILE */
+#profile {
+  position: relative;
+  padding-top: 100px;
+  background-color: #fff;
+}
+#profile::after {
+  content: "";
+  display: block;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 680px;
+  width: 969px;
+  height: 532px;
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  z-index: 1;
+}
+#profile h2.sub_title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+#profile .profile_container{
+  display: flex;
+  gap: 120px;
+  z-index: 2;
+}
+#profile .profile_container.inner {}
+
+#profile .profile_container .profile_box {
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+#profile .profile_container .profile_img{
+}
+
+#profile .profile_container .profile_img img {
+  width: 300px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#profile .profile_container .profile_box .info-01{
+  padding: 20px;
+  font-size: 24px;
+  line-height: 2;
+}
+#profile .profile_container .profile_box .info-01 em {
+
+}
+#profile .profile_container .profile_box .info-01 span {
+  font-size: 18px;
+}
+#profile .profile_container > ul {
+  flex-grow: 1;
+}
+#profile .profile_container > ul >li {
+  position: relative;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+#profile .profile_container > ul > li strong {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 2;
+}
+#profile .profile_container ul li p {
+  line-height: 2;
+}
+#profile .profile_container ul li::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background-color: #313131;
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+#profile .profile_container ul .info-05 .tool-list {
+  display: flex;
+  gap: 20px;
+}
+/* WORK */
+#work {
+  padding-top: 100px;
+  position: relative;
+  background-color: #fff;
+}
+#work h2.sub_title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+#work .web_container > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+#work .web_container > ul > li .left_preview img{
+  width: 100%;
+  border: 2px solid #313131;
+  border-radius: 5px;
+}
+#work .web_container > ul > li .right_txt {
+  flex-grow: 1;
+}
+#work .web_container > ul > li .right_txt ul li {
+  font-size: 18px;
+  line-height: 2;
+}
+#work .web_container > ul > li .right_txt ul li img{
+  height: 100px;
+}
+#work .web_container > ul > li .right_txt .more {
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #222;
+  margin-top: 20px;
+}
+#work .web_container > ul > li .right_txt .more a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+#work .web_container > ul > li .right_txt ul li span {
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+  width: 100px;
+}
+#work .web_container > ul > li .right_txt .sub_title {
+  font-size: 24px;
+  padding: 20px 0;
+  font-weight: 500; 
+}
+/* CONTACT */
+#contact {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+}
+#contact::before {
+  content: "";
+  display: block;
+  width: 42%;
+  height: 1px;
+  background-color: #222;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+#contact::after {
+  content: "";
+  display: block;
+  width: 42%;
+  height: 1px;
+  background-color: #222;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+#contact .title h3 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+}
+#contact .ect {
+  padding: 50px 0;
+  text-align: center;
+  line-height: 3;
+}
+#contact .ect p {
+  font-size: 18px;
+}
+/* FOOTER */
+footer {
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
+  background-color: #fff;
+  border-top: 1px solid #222;
+  /* border: 2px solid tomato; */
+}
+
+footer address {
+  line-height: 2;
+  text-align: center;
+}
+
+@media all and (max-width:1065px) and (min-width:801px) {
+  .inner {
+    width: 100%;
+  }
+  header .inner {
+    width: 90%;
+  }
+  #home .main_title.inner { 
+    width: 90%;
+  }
+  #profile::after {
+    content: "";
+    display: none;
+  }
+  #profile .profile_container .profile_box {
+    width: 300px;
+  }
+  #profile .profile_container.inner {
+    width: 90%;
+  }
+  #work .web_container.inner {
+    width: 90%;
+  }
+  #contact .ect.inner {
+    width: 90%;
+  }
+  footer .inner {
+    width: 90%;
+  }
+}
+
+@media all and (max-width:800px) {
+  .inner {
+    width: 100%;
+  }
+  header .inner {
+    width: 90%;
+  }
+  header nav .menu > li > a {
+    display: block;
+    font-size: 20px;
+  }
+  #home .main_title.inner { 
+    width: 90%;
+  }
+  #home .main_title h1 {
+    font-size: 42px;
+    position: absolute;
+    top: 28%;
+    left: 15%;
+  }
+  #home .main_title h2 {
+    font-size: 28px;
+    position: absolute;
+    bottom: 30%;
+    left: 55%;
+  }
+  #home .main_title > img {
+    padding: 90px 0;
+    width: 100%;
+  }
+  #profile::after {
+    content: "";
+    display: none;
+  }
+  #profile .profile_container.inner {
+    width: 90%;
+  }
+  #profile h2.sub_title {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  #profile .profile_container{
+    display: block;
+  }
+  #profile .profile_container .profile_box {
+    width: 100%;
+    padding: 0;
+  }
+  #profile .profile_container .profile_img img {
+    width: 250px;
+  }
+  #profile .profile_container .profile_box .info-01{
+    font-size: 20px;
+  }
+  #profile .profile_container .profile_box .info-01 span {
+    font-size: 16px;
+  }
+  #profile .profile_container > ul {
+    text-align: center;
+  }
+  #profile .profile_container > ul > li strong {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+  }
+  #profile .profile_container > ul > li strong::before{
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    background-color: rgba(109, 160, 236, 0.5);
+    position: absolute;
+    top: -2px;
+    left: -6px;
+    z-index: -1;
+
+  }
+  #profile .profile_container > ul > li.info-02 p span{
+    display: block;
+  }
+  #profile .profile_container > ul > li::before {
+    content: "";
+    display: none;
+  }
+  #profile .profile_container > ul .info-05 .tool-list {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #work h2.sub_title {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  #work .web_container.inner {
+    width: 90%;
+  }
+  #work .web_container > ul > li .right_txt > ul > li {
+    font-size: 16px;
+    line-height: 2;
+  }
+  #work .web_container > ul > li .right_txt > ul > li img{
+    height: 80px;
+  }
+  #work .web_container > ul > li .right_txt .more {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #222;
+    margin-top: 20px;
+  }
+  #work .web_container > ul > li .right_txt > ul > li span {
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    width: 100px;
+  }
+  #work .web_container > ul > li .right_txt .sub_title {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 0;
+  }
+  #contact .ect.inner {
+    width: 90%;
+  }
+  footer .inner {
+    width: 90%;
+  }
+}
+
+@media all and (max-width:425px) {
+  .inner {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    height: 50px;
+  }
+  header nav .menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  header nav .menu > li > a {
+    display: block;
+    font-size: 14px;
+    line-height: 3;
+  }
+  #home .main_title.inner {
+    width: 100%;
+    position: relative;
+  }
+  #home .main_title h1 {
+    font-size: 28px;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+  }
+  #home .main_title h2 {
+    font-size: 18px;
+    position: absolute;
+    bottom: 25%;
+    left: 55%;
+  }
+  #home .main_title > img {
+    padding: 50px 0;
+  }
+  #profile .profile_container > ul .info-05 .tool-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  #work .web_container > ul > li {
+    display: block;
+  }
+  #work .web_container > ul > li .right_txt {
+    position: relative;
+  }
+  #work .web_container > ul > li .right_txt .more {
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #work .web_container > ul > li .right_txt .more a {
+    font-size: 16px;
+    display: block;
+    line-height: 45px;
+  }
+  #contact::before {
+    content: "";
+    display: block;
+    width: 35%;
+  }
+  #contact::after {
+    content: "";
+    display: block;
+    width: 35%;
+  }
+  #contact .title h3 {
+    font-size: 18px;
+  }
+
+  footer .inner {
+    word-break: keep-all;
+  }
+
+}

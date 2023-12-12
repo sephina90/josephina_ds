@@ -1,0 +1,240 @@
+@charset "utf-8";
+html {
+  --color-font: #222;
+  --color-font--blue: #1769FF;
+}
+
+/* web : 1024px 이상 */
+#wrapper{
+  position: relative;
+  width: 100%;
+}
+
+
+/* 헤더영역 */ 
+#header{
+  position: relative;
+  width: 100%;
+}
+#header .introWrap {
+  position: relative;
+}
+#header .introWrap .logo {
+  float: left;
+}
+#header .introWrap .logo .logoWeb {
+  width: 195px;
+  height: 38px;
+}
+#header .introWrap .logo .logoMob {
+  display: none;
+}
+#header .introWrap .searchArea {
+  position: absolute;
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 30px;
+}
+#header .introWrap .searchArea .searchForm {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #333133;
+  border-radius: 15px;
+  padding: 0 15px;
+  background-color: #fff;
+}
+#header .introWrap .searchArea .searchForm .searchInput {
+  border: none;
+  background: none;
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  outline: none;
+}
+#header .introWrap .searchArea .searchForm .searchBtn {
+  background: url(../images/web_icons.png) no-repeat -79px -406px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  margin: auto;
+}
+#header .introWrap .subMenu {
+  float: right;
+}
+#header .introWrap .subMenu .subMenu__list {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+#header .introWrap .subMenu .mobileBtn{
+  display: none;
+}
+#header .introWrap .subMenu .mobileBtn .searchBtn{
+  background: url(../images/web_icons.png) no-repeat -99px -406px;
+  width: 30px;
+  height: 30px;
+}
+#header .introWrap .subMenu .mobileBtn .gnbBtn {
+  background: url(../images/web_icons.png) no-repeat 0 -406px;
+  width: 28px;
+  height: 26px;
+  display: block;
+}
+
+/* gnb메뉴 */
+#header .navWrap {
+
+}
+#header .navWrap .gnbWeb {
+
+}
+#header .navWrap .gnbWeb .gnbWeb__list{
+  width: 1024px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#header .navWrap .gnbWeb .gnbWeb__list > li{
+  margin: 0 10px;
+}
+
+#header .navWrap .gnbWeb .gnbWeb__list > li > a{
+  line-height: 40px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#header .navWrap .gnbWeb .gnbWeb__list > li > a.black_{
+  color: var(--color-font);
+}
+
+#header .navWrap .gnbWeb .gnbWeb__list > li > a.blue_{
+  color: var(--color-font--blue);
+}
+#header .navWrap .gnbMob {
+  display: none;
+}
+
+#header .navWrap .gnbMob .gnbMob__list{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+
+}
+#header .navWrap .gnbMob .gnbMob__list > li {
+
+}
+
+#header .navWrap .gnbMob .gnbMob__list > li > a{
+  display: block;
+  text-align: center;
+}
+
+#header .navWrap .gnbMob .gnbMob__list > li > a > span.txt {
+  display: block;
+  width: 60px;
+}
+
+.gnbMob__list .gnbIcon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url(../images/m_gnbiconset.png) no-repeat;
+}
+
+.gnbMob__list .icon1{background-position: 0 0;}
+.gnbMob__list .icon2{background-position: 0 -40px;}
+.gnbMob__list .icon3{background-position: 0 -80px;}
+.gnbMob__list .icon4{background-position: 0 -120px;}
+.gnbMob__list .icon5{background-position: 0 -160px;}
+.gnbMob__list .icon6{background-position: 0 -200px;}
+.gnbMob__list .icon7{background-position: 0 -240px;}
+.gnbMob__list .icon8{background-position: 0 -280px;}
+.gnbMob__list .icon9{background-position: 0 -320px;}
+.gnbMob__list .icon10{background-position: 0 -360px;}
+.gnbMob__list .icon11{background-position: 0 -400px;}
+
+@media all and (max-width:1025px) and (min-width:769px) {
+  
+  #wrapper{
+    position: relative;
+    width: 100%;
+  }
+  #header{
+    position: relative;
+    width: 100%;
+  }
+  #header .introWrap.inner {
+    width: 90%;
+  }
+
+}
+
+@media all and (max-width:768px) {
+  #wrapper{
+    position: relative;
+    width: 100%;
+  }
+  #header{
+    position: relative;
+    width: 100%;
+  }
+  #header .introWrap.inner {
+    width: 90%;
+    margin-top: 10px;
+  }
+  #header .introWrap .logo .logoWeb {
+    display: none;
+  }
+  #header .introWrap .logo .logoMob {
+    display: block;
+  }
+  #header .introWrap .searchArea {
+    display: none;
+  }
+  #header .introWrap .subMenu .subMenu__list{
+    display: none;
+  }
+  #header .introWrap .subMenu .mobileBtn{
+    display: flex;
+    gap: 10px;
+  }
+  #header .navWrap.inner {
+    width: 90%;
+  }
+  #header .navWrap .gnbWeb .gnbWeb__list{
+    display: none;
+  }
+  #header .navWrap .gnbMob {
+    display: block;
+  }
+}
+
+@media all and (max-width:425px) {
+  #wrapper{
+    position: relative;
+    width: 100%;
+  }
+  #header{
+    position: relative;
+    width: 100%;
+    /* background-color: tomato; */
+  }
+  #header .navWrap .gnbMob .gnbMob__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+

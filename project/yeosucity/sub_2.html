@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <meta name="keywords" content="여수, 여수시청, 여수시, yeosu, yeosucity, 전남여수, 해양관광" />
+    <meta name="description" content="여수시청홈페이지" />
+    <meta name="author" content="soms"/>
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="여수시청">
+    <meta property="og:url" content="https://www.">
+    <meta property="og:description" content="여수시청메인페이지,Home">
+    <meta property="og:image" content="img/logo.png">     <!-- content : 미리보기할 이미지 경로 넣기 -->
+    <!-- twitter -->
+    <meta property="twitter:card" content="website">
+    <meta property="twitter:title" content="여수시청">
+    <meta property="twitter:url" content="https://www.">
+    <meta property="twitter:description" content="여수시청메인페이지,Home">
+    <meta property="twitter:image" content="img/logo.png"> <!-- content : 미리보기할 이미지 경로 넣기 -->
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/> <!-- 폰트어썸 cdn -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/sub.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./js/main.js"></script>
+    <title>카드뉴스</title>
+
+</head>
+<body>
+     <!-- skip-menu -->
+    <div id="skipMenu">
+        <a href="#container">본문내용바로가기</a>
+        <a href="#gnb">주메뉴바로가기</a>
+    </div>
+
+    <div id="wrapper" class="all_">
+        <div class="asideLayout all_"> <!-- 100% -->
+            <aside class="headerWrapTop mid_"> <!-- center -->
+                <ul class="fs0_">
+                    <li><a href="#none" class="on">여수시청</a></li>
+                    <li><a href="#none">여수시의회</a></li>
+                    <li><a href="#none">문화관광</a></li>
+                    <li><a href="#none">보건소</a></li>
+                </ul>
+            </aside>
+        </div>
+        <aside class="headerWrapMid mid_"> <!-- center -->
+            <ul class="tar_ fs0_">
+                <li>
+                    <a href="#none">
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        <span>로그인</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#none">
+                        <i class="fa-solid fa-bars"></i>
+                        <span>사이트맵</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <form method="post" action="#none" name="languageFrm" class="languageWrap">
+                        <select class="languageList">
+                            <option value="#none" selected>Korea</option>
+                            <option value="#none">English</option>
+                            <option value="#none">Japanese</option>
+                            <option value="#none">Chinese</option>
+                        </select>
+                        <button type="submit" class="languageBtn btnGo_ fcw_" title="언어변경">GO</button>
+                    </form>
+                </li>
+            </ul>
+        </aside>
+
+        <header class="headerLayout all_"><!-- 헤더영역 시작: 100% -->
+            <div class="headerWrap mid_ clearfix"> <!-- 가운데정렬(로고+GNB+검색창) -->
+                <div class="headerLogo bgLogo fl_ ml10_">
+                    <h1 class="skipText_"><a href="./index.html">여수시(Yeosucity)</a></h1>
+                </div>
+                
+                <!-- gnb시작 -->
+                <nav class="gnbWrap" id="gnb">
+                    <h2 class="skipText_">주메뉴</h2>
+                    <ul class="depth01 clearfix">
+                        <li>
+                            <!-- gnb 1차 -->
+                            <a href="./sub_3.html" class="on">종합민원</a>
+
+                            <div class="gnbGroup">  <!-- 배경 + 2차,3차 gnb -->
+
+                                <div class="bgBox bgColor_0"><span class="fs32_ fcw_ shadowTb_">종합민원</span></div> <!-- 배경 -->
+                                
+                                <ul class="depth02">  <!-- gnb 2차 -->
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원편의제도</a></span>
+                                        
+                                        <ul class="depth03"> <!-- gnb 3차 -->
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none" target="_blank">편리한민원제도<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                        </ul>
+
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원상담</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원발급</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor">
+                                            <a href="#none">민원편람<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">행정서비스헌장</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>
+                                        <span class="changeColor">
+                                            <a href="#none">전자민원창구<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </span>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <!-- gnb 1차 -->
+                            <a href="./sub_2.html">열린시정</a>
+
+                            <div class="gnbGroup">  <!-- 배경 + 2차,3차 gnb -->
+
+                                <div class="bgBox bgColor_1"><span class="fs32_ fcw_ shadowTb_">열린시정</span></div> <!-- 배경 -->
+                                
+                                <ul class="depth02">  <!-- gnb 2차 -->
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원편의제도</a></span>
+                                        
+                                        <ul class="depth03"> <!-- gnb 3차 -->
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none" target="_blank">편리한민원제도<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                        </ul>
+
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원상담</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원발급</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor">
+                                            <a href="#none">민원편람<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">행정서비스헌장</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>
+                                        <span class="changeColor">
+                                            <a href="#none">전자민원창구<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </span>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <!-- gnb 1차 -->
+                            <a href="./sub_1.html">정보공개</a>
+
+                            <div class="gnbGroup">  <!-- 배경 + 2차,3차 gnb -->
+
+                                <div class="bgBox bgColor_2"><span class="fs32_ fcw_ shadowTb_">정보공개</span></div> <!-- 배경 -->
+                                
+                                <ul class="depth02">  <!-- gnb 2차 -->
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원편의제도</a></span>
+                                        
+                                        <ul class="depth03"> <!-- gnb 3차 -->
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none" target="_blank">편리한민원제도<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                        </ul>
+
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원상담</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원발급</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor">
+                                            <a href="#none">민원편람<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">행정서비스헌장</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>
+                                        <span class="changeColor">
+                                            <a href="#none">전자민원창구<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </span>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <!-- gnb 1차 -->
+                            <a href="#none">분야별정보</a>
+
+                            <div class="gnbGroup">  <!-- 배경 + 2차,3차 gnb -->
+
+                                <div class="bgBox bgColor_3"><span class="fs32_ fcw_ shadowTb_">분야별정보</span></div> <!-- 배경 -->
+                                
+                                <ul class="depth02">  <!-- gnb 2차 -->
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원편의제도</a></span>
+                                        
+                                        <ul class="depth03"> <!-- gnb 3차 -->
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none" target="_blank">편리한민원제도<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                        </ul>
+
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원상담</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원발급</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor">
+                                            <a href="#none">민원편람<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">행정서비스헌장</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>
+                                        <span class="changeColor">
+                                            <a href="#none">전자민원창구<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </span>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <!-- gnb 1차 -->
+                            <a href="#noen">여수소개</a>
+
+                            <div class="gnbGroup">  <!-- 배경 + 2차,3차 gnb -->
+
+                                <div class="bgBox bgColor_4"><span class="fs32_ fcw_ shadowTb_">여수소개</span></div> <!-- 배경 -->
+                                
+                                <ul class="depth02">  <!-- gnb 2차 -->
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원편의제도</a></span>
+                                        
+                                        <ul class="depth03"> <!-- gnb 3차 -->
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none">편리한민원제도</a></li>
+                                            <li><a href="#none" target="_blank">편리한민원제도<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                        </ul>
+
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원상담</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                            <li><a href="#none">복합민원상담예약접수</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">민원발급</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                            <li><a href="#none">무인민원발급창구</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor">
+                                            <a href="#none">민원편람<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="changeColor"><a href="#none">행정서비스헌장</a></span>
+                                        <ul class="depth03">
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                            <li><a href="#none">행정서비스헌장이란</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>
+                                        <span class="changeColor">
+                                            <a href="#none">전자민원창구<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </span>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </li>
+    
+                    </ul>
+                </nav>
+
+                <div class="searchWrap">
+                    <h2 class="skipText_">검색영역</h2>
+                    <form class="searchForm" action="#" method="post">
+                        <input type="text" class="" name="searchInput" placeholder="검색어를 입력하세요">  
+                        <button type="submit" class="searchBtn">검색</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+            <section class="subContainer all_" id="container"> <!-- 100% -->
+                <section class="subContentLayout clearfix">
+                    <section class="subHeader">
+                        <h2>카드뉴스</h2>
+                        <ul class="route">
+                            <li><a href="index.html"><span class="commonIcon home skipText_">홈</span></a></li>
+                            <li><span class="arrow"></span><a href="#none">열린시정</a></li>
+                            <li><span class="arrow"></span><a href="#none">여수소식</a></li>
+                            <li><span class="arrow"></span>카드뉴스</li>
+                        </ul>
+                        <ul class="subIcon">
+                            <li class=""><a href="#none" class="commonIcon icon1 skipText_">공유하기</a></li>
+                            <li><a href="#none" class="commonIcon icon2 skipText_">인쇄하기</a></li>
+                            <li><a href="#none" class="commonIcon icon3 skipText_">현재페이지축소</a></li>
+                            <li><a href="#none" class="commonIcon icon4 skipText_">현재페이지확대</a></li>
+                        </ul>
+                    </section>
+            
+                    <section class="lnb" id="lnb" >
+                        <div class="lnbTitle">
+                            <span>열린시정</span>
+                        </div>
+                        <ul class="lnbMenu01">
+                            <li>
+                                <a href="#none">주요시정안내
+                                    <span> + </span>
+                                </a>
+                                <ul class="lnbMenu02 off">
+                                    <li><a href="#none">기본현황</a></li>
+                                    <li><a href="#none">기본현황</a></li>
+                                    <li><a href="#none">기본현황</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#none" class="on">여수소식
+                                    <span> + </span>
+                                </a>
+                                <ul class="lnbMenu02 on">
+                                    <li><a href="#none">공지사항</a></li>
+                                    <li><a href="#none">보도/해명자료</a></li>
+                                    <li><a href="#none">고시공고</a></li>
+                                    <li><span class="on">카드뉴스</span></li>
+                                    <li><a href="#none">시보</a></li>
+                                    <li><a href="#none">문화행사안내</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#none">청렴감사정보
+                                    <span> + </span>
+                                </a>
+                                <ul class="lnbMenu02 off">
+                                    <li><a href="#none">기본안내</a></li>
+                                    <li><a href="#none">기본안내</a></li>
+                                    <li><a href="#none">기본안내</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#none">적극행정
+                                    <span> + </span>
+                                </a>
+                                <ul class="lnbMenu02 off">
+                                    <li><a href="#none">기본안내</a></li>
+                                    <li><a href="#none">기본안내</a></li>
+                                    <li><a href="#none">기본안내</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#none">행정서비스헌장</a>
+                            </li>
+                            <li>
+                                <a href="#none">시민대상</a>
+                            </li>
+                            <li>
+                                <a href="#none">고향사랑기부제
+                                    <span> + </span>
+                                </a>
+                                <ul class="lnbMenu02 off">
+                                    <li><a href="#none">기본안내</a></li>
+                                    <li><a href="#none">기본안내</a></li>
+                                    <li><a href="#none">기본안내</a></li>
+                                    <li><a href="#none">기본안내</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                
+                    <section class="subContent">
+                        <div class="cardBoard">
+                            <form action="#" method="post" name="cardBoardFrm" class="cardBoardFrm">
+                                <select class="optionGroup">
+                                    <option value="#none">제목</option>
+                                    <option value="#none">내용</option>
+                                    <option value="#none">등록자</option>
+                                    <option value="#none">아이디</option>
+                                </select>
+                  
+                                <input type="text" class="searchInput" name="searchInput" placeholder="검색어를 입력하세요">  
+                                <button type="submit" class="searchBtn">검색</button>
+                
+                            </form>
+                            <div class="cardContent">
+                                <p>총 <em> 22</em> 개 [<em> 1</em> / 3 페이지]</p>
+                                <ul class="cardList">
+                                    <li><a href="#none"><img src="./images/card_0.png" alt=""><span>폭염 3대 취약분야 행동요령</span><i>2023-08-19</i></a></li>
+                                    <li><a href="#none"><img src="./images/card_1.png" alt=""><span>촘촘한 주소로 안전한 생활</span><i>2023-08-19</i></a></li>
+                                    <li><a href="#none"><img src="./images/card_2.png" alt=""><span>주소정보 신산업 창출</span><i>2023-08-19</i></a></li>
+                                    <li class="mr0_"><a href="#none"><img src="./images/card_3.png" alt=""><span>등산중 긴급상황이 발생한다면? 국가지점번호로 신고하세요!</span><i>2023-08-19</i></a></li>
+                                    <li><a href="#none"><img src="./images/card_4.png" alt=""><span>국민 생활 속 주소정보 활용 사례</span><i>2023-08-19</i></a></li>
+                                    <li><a href="#none"><img src="./images/card_5.png" alt=""><span>4차 미세먼지 계절관리제</span><i>2023-08-19</i></a></li>
+                                    <li><a href="#none"><img src="./images/card_6.png" alt=""><span>소비기한으로 시작되는 반가운 변화 유통업편</span><i>2023-08-19</i></a></li>
+                                    <li class="mr0_"><a href="#none"><img src="./images/card_7.png" alt=""><span>사랑의 매는 더이상 없습니다(민법 제915조 징계권 폐지)</span><i>2023-08-19</i></a></li>
+                                </ul>
+                                <ul class="cardPage">
+                                    <li><span class="on">1</span></li>
+                                    <li class="bl0_"><a href="#none">2</a></li>
+                                    <li class="bl0_"><a href="#none">3</a></li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                        
+                    </section>
+                </section>
+        
+            </section>
+           
+        <footer class="footerLayout all_"> <!-- 100% -->
+            <section class="footerWrap mid_"> <!-- center -->
+                <ul class="footerMenu clearfix">
+                    <li><a href="#none">부서</a>
+                        <ul class="tabList">
+                            <li><a href="#none">부서1</a></li>
+                            <li><a href="#none">부서2</a></li>
+                            <li><a href="#none">부서3</a></li>
+                            <li><a href="#none">부서4</a></li>
+                        </ul>
+                        <button type="submit" class="footerMenuBtn btnGo_">GO</button>
+                    </li>
+                    <li><a href="#none">동주민센터</a>
+                        <ul class="tabList">
+                            <li><a href="#none">동주민센터1</a></li>
+                            <li><a href="#none">동주민센터2</a></li>
+                            <li><a href="#none">동주민센터3</a></li>
+                            <li><a href="#none">동주민센터4</a></li>
+                        </ul>
+                        <button type="submit" class="footerMenuBtn btnGo_">GO</button>
+                    </li>
+                    <li><a href="#none">유관기관</a>
+                        <ul class="tabList">
+                            <li><a href="#none">유관기관1</a></li>
+                            <li><a href="#none">유관기관2</a></li>
+                            <li><a href="#none">유관기관3</a></li>
+                            <li><a href="#none">유관기관4</a></li>
+                        </ul>
+                        <button type="submit" class="footerMenuBtn btnGo_">GO</button>
+                    </li>
+                    <li><a href="#none">패밀리사이트</a>
+                        <ul class="tabList">
+                            <li><a href="#none">패밀리사이트1</a></li>
+                            <li><a href="#none">패밀리사이트2</a></li>
+                            <li><a href="#none">패밀리사이트3</a></li>
+                            <li><a href="#none">패밀리사이트4</a></li>
+                        </ul>
+                        <button type="submit" class="footerMenuBtn btnGo_">GO</button>
+                    </li>
+                </ul>
+                <div class="footerGroup mid_ clearfix"> <!-- 가운데정렬 -->
+                    <div class="footerLogo bgLogo fl_">
+                        <p class="skipText_">여수시(Yeosucity)</p>
+                    </div>
+                    <div class="footerEtc fl_ ml30_">
+                        <ul>
+                            <li class="ml10_"><a href="#none">개인정보처리방침</a></li>
+                            <li><a href="#none">저작권정책</a></li>
+                            <li><a href="#none">이메일주소무단수집거부</a></li>
+                            <li><a href="#none">뷰어프로그램다운로드</a></li>
+                            <li class="mr0_"><a href="#none">홈페이지개선의견</a></li>
+                        </ul>
+
+                        <p class="address">
+                            &#91;59675&#93; 전남 여수시 시청로 1(학동) TEL : 1899-2012, 061-659-2114 
+                        </p>
+                        <p class="copy">
+                            COPYRIGHT BY YEOSU-CITY. ALL RIGHT RESERVED.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </footer>   
+
+
+
+    </div>
+    
+</body>
+</html>
